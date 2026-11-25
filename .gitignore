@@ -1,0 +1,13 @@
+# Generated artifacts — never commit
+
+# Extraction output: personal wishlist data (prices, dates, what Les wants).
+# Regenerable from extract.py against a logged-in browser session.
+items*.json
+
+# Generated Linkding import files. Same personal data as items*.json.
+out/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
